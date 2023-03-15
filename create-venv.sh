@@ -3,15 +3,15 @@
 
 # get parameters from the input
 ENV_NAME=${1}
-V310=`~/bin/pyenv versions --bare |grep '3.10'`
-PYTHON_VERSION=${2:-$V310}   # set default python-version to 3.10
+V310=`~/bin/pyenv versions --bare |grep '3.11'`
+PYTHON_VERSION=${2:-$V310}   # set default python-version to 3.11
 
 
 function help() {
     echo "Usage:"
     echo "    >>> $0 <env-name> <python-version>"
     echo "Example:"
-    echo "    >>> $0 osn 3.10"
+    echo "    >>> $0 project-foo 3.11"
     echo ""
     echo "You need to provide an env-name for your new pyenv-environment."
     exit
