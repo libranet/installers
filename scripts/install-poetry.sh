@@ -6,7 +6,7 @@ set -e # failing commands cause the shell script to exit immediately
 function help_() { # don't shadow help-builtin
     echo "Steps:"
     echo "    1) install poetry"
-    echo "    2) syminl poetry-executable:"
+    echo "    2) symlink poetry-executable:"
     echo "    3) update poetry"
     echo "    4) install extensions"
     exit
