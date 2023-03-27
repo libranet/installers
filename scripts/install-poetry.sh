@@ -40,6 +40,9 @@ function install_extensions() {
     echo -e "Installing poetry-plugin: poetry-dynamic-versioning."
     poetry self add "poetry-dynamic-versioning[plugin]"
 
+    # see https://github.com/tiangolo/poetry-version-plugin
+    echo -e "Installing poetry-plugin: poetry-version-plugin."
+    poetry self add poetry-version-plugin
 }
 
 # main program
