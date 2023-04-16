@@ -4,6 +4,8 @@
 set -e # failing commands cause the shell script to exit immediately
 
 
+# > curl -sSL https://raw.githubusercontent.com/libranet/installers/main/scripts/install-cookcutter.sh |  bash
+
 NOW=$(date +"%Y-%m-%d %H:%M:S")
 
 # INSTALL_DIR=$(realpath -s "$1")

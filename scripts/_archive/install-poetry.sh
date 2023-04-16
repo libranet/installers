@@ -30,7 +30,7 @@ function update_poetry() {
 function install_extensions() {
     # https://github.com/madkinsz/poetry-relax
     echo -e "Installing poetry-plugin: poetry-relax."
-    poetry self add poetry-relax
+    bin/poetry self add poetry-relax
 
     # see https://github.com/python-poetry/poetry-plugin-export
     echo -e "Installing poetry-plugin: poetry-plugin-export."

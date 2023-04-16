@@ -13,6 +13,7 @@
 # -x: The  shell shall write to standard error a trace for each command after it expands the command and
 #     before it executes it. It is unspecified whether the command that turns tracing off is traced.
 
+#  https://raw.githubusercontent.com/libranet/installers/main/scripts/hello.sh
 set -e # exit on error
 set -u # exit on unset variable
 # set -x  # verbose debugging output
